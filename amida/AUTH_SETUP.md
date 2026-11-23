@@ -38,7 +38,7 @@
 |---|---|
 | アプリケーションの種類 | **ウェブアプリケーション** |
 | 名前 | `削減アミダクジ` |
-| 承認済みの JavaScript 生成元 | `https://amida.puzzliar.jp` |
+| 承認済みの JavaScript 生成元 | `https://tools.puzzliar.jp` |
 | 承認済みのリダイレクト URI | `https://wiqnmebudaadwqdaxwko.supabase.co/auth/v1/callback` |
 
 「作成」をクリック → **クライアント ID** と **クライアント シークレット** が表示されるのでコピー（再表示可能）。
@@ -63,16 +63,10 @@ OAuth 同意画面に戻り、画面上部「**アプリを公開**」ボタン�
 
 🔗 https://supabase.com/dashboard/project/wiqnmebudaadwqdaxwko/auth/url-configuration
 
-- **Site URL**: `https://amida.puzzliar.jp`
+- **Site URL**: `https://tools.puzzliar.jp/amida/`
 - **Redirect URLs** (Additional Redirect URLs)（カンマ区切りで複数指定可）:
   ```
-  https://amida.puzzliar.jp
-  https://amida.puzzliar.jp/
-  https://amida.puzzliar.jp/tool.html
-  https://amida.puzzliar.jp/present.html
-  https://puzzliar.github.io/amida-tools/
-  https://puzzliar.github.io/amida-tools/tool.html
-  https://puzzliar.github.io/amida-tools/present.html
+  https://tools.puzzliar.jp/amida/**
   http://localhost:8000
   http://localhost:8000/tool.html
   http://localhost:8000/present.html
@@ -99,7 +93,7 @@ dai@puzzliar.jp   | approved | true
 
 ## ステップ 4: 動作確認
 
-1. `https://amida.puzzliar.jp/tool.html` を開く
+1. `https://tools.puzzliar.jp/amida/tool.html` を開く
 2. 「Google でログイン」をクリック
 3. Google アカウント選択 → 同意画面 → ツールにリダイレクト
 4. dai@puzzliar.jp でログインすれば即時利用可能
