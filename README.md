@@ -6,6 +6,7 @@ https://tools.puzzliar.jp/ で配信する PUZZLIAR の運営ツール置き場�
 |---|---|
 | [`amida/`](amida/) | 削減アミダクジ 集計ツール・発表ツール（https://tools.puzzliar.jp/amida/） |
 | [`sugoroku/`](sugoroku/) | 制限すごろく 集計ツール・発表ツール・ルール説明（https://tools.puzzliar.jp/sugoroku/） |
+| [`bingo/`](bingo/) | 強奪ビンゴ 集計ツール・発表画面（https://tools.puzzliar.jp/bingo/） |
 
 ツールを追加するときは `<ツール名>/` フォルダを作り、`index.html` のカードに1件追加する。
 
