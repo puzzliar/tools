@@ -1,0 +1,9 @@
+{
+  "name": "puzzliar-tools",
+  "private": true,
+  "description": "PUZZLIAR 運営ツール（tools.puzzliar.jp）",
+  "scripts": {
+    "test": "node --test test/*/*.test.js",
+    "start": "python3 -m http.server 8000"
+  }
+}
